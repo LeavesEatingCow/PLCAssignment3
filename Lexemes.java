@@ -342,7 +342,7 @@ public class Lexemes {
                 tokenIden(br);
                 lookup(br);
             }
-            else if (Character.isDigit(currChar) || currChar == '+' || currChar =='-') {
+            else if (Character.isDigit(currChar) || currChar == '+' || currChar =='-' || currChar =='.') {
                 tokenNum(br);
                 lookup(br);
             }
